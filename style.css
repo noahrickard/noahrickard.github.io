@@ -14,3 +14,8 @@ body {background-color: red;
 .headers{
     text-align: center;
 }
+
+.banner {
+    /* The image used */
+    background-image: "https://media.istockphoto.com/id/458134167/photo/spongebob-squarepants.jpg?s=612x612&w=0&k=20&c=LGhun-S3fIzwKoEllNo_Go-1OM98GgYqyvQLOr5SwdQ=";
+  }
