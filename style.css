@@ -39,20 +39,6 @@ body {
   text-align: center;
 }
 
-.headers {
-  text-align: center;
-}
-
-.banner {
-  /* The image used */
-  display: flex;
-  position: absolute;
-  width: 100%;
-  background-color: black;
-  color: red;
-  background-image: "https://media.istockphoto.com/id/458134167/photo/spongebob-squarepants.jpg?s=612x612&w=0&k=20&c=LGhun-S3fIzwKoEllNo_Go-1OM98GgYqyvQLOr5SwdQ=";
-}
-
 .logo {
   text-align: center;
   margin: 25 auto 25 auto;
@@ -63,6 +49,6 @@ body {
   width: 100px;
 }
 
-div#main-content {
+.main-content {
   text-align: center;
 }
