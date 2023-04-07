@@ -1,4 +1,5 @@
 body {background-color: red;
+    margin: 0;
 }
 
 
@@ -17,6 +18,45 @@ body {background-color: red;
 
 .banner {
     /* The image used */
+    display:flex;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color:red;
     background-image: "https://media.istockphoto.com/id/458134167/photo/spongebob-squarepants.jpg?s=612x612&w=0&k=20&c=LGhun-S3fIzwKoEllNo_Go-1OM98GgYqyvQLOr5SwdQ=";
-    justify-content: space-between;
+   
   }
+
+.logo{
+    text-align: center;
+    margin: 25 auto 25 auto;
+}
+
+.logo-img{    
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+div#banner { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    background-color:black; 
+    color: white;
+    width: 100%; 
+  }
+  div#banner-content { 
+    width: 800px; 
+    margin: 0 auto; 
+    padding: 10px; 
+    border: 1px solid white;
+  }
+  div#main-content { 
+    padding-top: 170px;
+    text-align: center;
+ }
